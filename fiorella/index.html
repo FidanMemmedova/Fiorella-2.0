@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/store.js" defer async></script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h2-logo-1.png" alt="logo" />
+            </div>
+            <span class="hamburger"><i class="fa-solid fa-bars"></i>
+            </span>
+            <div class="navbar">
+                <nav>
+                    <ul class="navigation_bar">
+                        <li class="home_dropdown">
+                            <span class="underline"><span class="home_dropbtn">HOME</span></span>
+                            <div class="home_content">
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">Main Home</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Grid Home</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Flower Shop</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Animated Slider</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Metro Showcase</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Carousel Showcase</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Landing</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="pages_dropdown">
+                            <span class="underline"><span class="pages_dropbtn">PAGES</span></span>
+                            <div class="pages_content">
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">About Us</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">FAQ Page</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Contact Us</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="shop_dropdown">
+                            <span class="underline"><span class="shop_dropbtn">SHOP</span></span>
+                            <div class="shop_content">
+                                <ul>
+                                    <li>
+                                        <h4>Product Types</h4>
+                                        <ul>
+                                            <li>
+                                                <a href=""><span class="underline">Standart Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Grouped Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Variable Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Virtual Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">External Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Downloadable Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">On Sale Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Out of Stock Product</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">New Product</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Shop Pages</h4>
+                                        <ul>
+                                            <li>
+                                                <a href=""><span class="underline">My Account</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Cart</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Checkout</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Orders</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Downloads</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Shop Types</h4>
+                                        <ul>
+                                            <li>
+                                                <a href=""><span class="underline">Product List</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Without Slidebar</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">With Category Filter</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">With Ordering Filter</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Shop Carousel</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Product Categories</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Single Category</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Shop Layouts</h4>
+                                        <ul>
+                                            <li>
+                                                <a href=""><span class="underline">Two Columns Grid</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Three Columns Grid</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Four Columns Grid</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Four Columns Wide</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Five Columns Wide</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><span class="underline">Six Columns Wide</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="portfolio_dropdown">
+
+                            <span class="underline"><span class="portfolio_dropbtn">PORTFOLIO</span></span>
+
+                            <div class="portfolio_content">
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">Standart</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Gallery</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Masonry</span></a>
+                                    </li>
+                                    <li class="porfolio_layouts_dropdown">
+                                        <span class="underline">
+                                            <span class="portfolio_layouts_dropbtn">Portfolio
+                                                Layouts</span></span><span class="right_arrow">></span>
+                                        <div class="portfolio_layouts_content">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><span class="underline">Two Columns</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Three Columns</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Four Columns</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Four Columns Wide</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Five Columns Wide</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="portfolio_single_dropdown">
+                                        <span class="underline"><span class="portfolio_single_dropbtn">Portfolio
+                                                Single</span></span><span class="right_arrow">></span>
+                                        <div class="portfolio_single_content">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><span class="underline">Small Images</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Small Slider</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Big Images</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Big Slider</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Gallery</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="blog_dropdown">
+                            <span class="underline"><span class="blog_dropbtn">BLOG</span></span>
+                            <div class="blog_content">
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">Masonry</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Standart</span></a>
+                                    </li>
+                                    <li class="post_types_dropdown">
+                                        <span class="underline"><span class="post_types_dropbtn">Post
+                                                Types</span></span><span class="right_arrow">></span>
+                                        <div class="post_types_content">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><span class="underline">Standart</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Gallery</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Link</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Quote</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Audio</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Video</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="elements_dropdown">
+                            <span class="underline"><span class="elements_dropbtn">ELEMENTS</span></span>
+                            <div class="elements_content">
+                                <ul>
+                                    <li class="classic_dropdown">
+                                        <a href=""><span class="left_arrow">
+                                                < </span><span class="underline"><span
+                                                            class="classic_dropbtn">Classic</span></span></a>
+                                        <div class="classic_content">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><span class="underline">Accordions</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline"></span>Tabs</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline"></span>Buttons</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline"></span>Video Button</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline"></span>Contact Form</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="infographic_dropdown">
+                                        <a href=""><span class="left_arrow">
+                                                < </span><span class="underline"><span
+                                                            class="infographic_dropbtn">Infographic</span></span></a>
+                                        <div class="infographic_content">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><span class="underline">Blog List</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Counters</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Countdown</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Google Maps</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Progress Bar</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Pie Charts</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="interactive_dropdown">
+                                        <a href=""><span class="left_arrow">
+                                                < </span><span class="underline"><span
+                                                            class="interactive_dropbtn">Interactive</span></span></a>
+                                        <div class="interactive_content">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><span class="underline">Image Gallery</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Testimonials</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Team</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Banner</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Shop List</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Portfolio List</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="typography_dropdown">
+                                        <a href=""><span class="left_arrow">
+                                                < </span><span class="underline"><span
+                                                            class="typography_dropbtn">Typography</span></span></a>
+                                        <div class="typography_content">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><span class="underline">Headings</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Columns</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Section Title</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Blockquote</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Dropcaps</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Highlights</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Separators</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><span class="underline">Custom Font</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="items">
+                    <span class="lupa">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <span class="bag">
+                        <!-- <div class="bag_item">
+                            <p>0</p>
+                        </div> -->
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </span>
+                    <span class="cart">
+                        CART <span class="money_amount">($0)</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <nav class="sidebar">
+            <ul class="sidebar_content">
+                <li class="side_home_dropdown">
+                    <span class="underline"><span class="side_home_dropbtn">HOME</span></span><span class="side_arrow"><i class="fa-solid fa-caret-right"></i></span>
+                    <div class="side_home_content">
+                        <ul>
+                            <li>
+                                <a href=""><span class="underline">Main Home</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Grid Home</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Flower Shop</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Animated Slider</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Metro Showcase</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Carousel Showcase</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Landing</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="side_pages_dropdown">
+                    <span class="underline"><span class="side_pages_dropbtn">PAGES</span></span><span class="side_arrow"><i class="fa-solid fa-caret-right"></i></span>
+                    <div class="side_pages_content">
+                        <ul>
+                            <li>
+                                <a href=""><span class="underline">About Us</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">FAQ Page</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Contact Us</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="side_shop_dropdown">
+                    <span class="underline"><span class="side_shop_dropbtn">SHOP</span></span><span class="side_arrow"><i class="fa-solid fa-caret-right"></i></span>
+                    <div class="side_shop_content">
+                        <ul>
+                            <li>
+                                <h4>Product Types</h4>
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">Standart Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Grouped Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Variable Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Virtual Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">External Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Downloadable Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">On Sale Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Out of Stock Product</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">New Product</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Shop Pages</h4>
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">My Account</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Cart</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Checkout</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Orders</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Downloads</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Shop Types</h4>
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">Product List</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Without Slidebar</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">With Category Filter</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">With Ordering Filter</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Shop Carousel</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Product Categories</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Single Category</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Shop Layouts</h4>
+                                <ul>
+                                    <li>
+                                        <a href=""><span class="underline">Two Columns Grid</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Three Columns Grid</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Four Columns Grid</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Four Columns Wide</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Five Columns Wide</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><span class="underline">Six Columns Wide</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="side_portfolio_dropdown">
+
+                    <span class="underline"><span class="side_portfolio_dropbtn">PORTFOLIO</span></span><span class="side_arrow"><i class="fa-solid fa-caret-right"></i></span>
+
+                    <div class="side_portfolio_content">
+                        <ul>
+                            <li>
+                                <a href=""><span class="underline">Standart</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Gallery</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Masonry</span></a>
+                            </li>
+                            <li class="porfolio_layouts_dropdown">
+                                <span class="underline">
+                                    <span class="portfolio_layouts_dropbtn">Portfolio
+                                        Layouts</span></span><span class="right_arrow">></span>
+                                <div class="portfolio_layouts_content">
+                                    <ul>
+                                        <li>
+                                            <a href=""><span class="underline">Two Columns</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Three Columns</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Four Columns</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Four Columns Wide</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Five Columns Wide</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                </li>
+                </ul>
+                <li class="side_blog_dropdown">
+                    <span class="underline"><span class="side_blog_dropbtn">BLOG</span></span><span class="side_arrow"><i
+                        class="fa-solid fa-caret-right"></i></span>
+                    <div class="side_blog_content">
+                        <ul>
+                            <li>
+                                <a href=""><span class="underline">Masonry</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span class="underline">Standart</span></a>
+                            </li>
+                            <li class="post_types_dropdown">
+                                <span class="underline"><span class="post_types_dropbtn">Post
+                                    Types</span></span><span class="right_arrow">></span>
+                                <div class="post_types_content">
+                                    <ul>
+                                        <li>
+                                            <a href=""><span class="underline">Standart</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Gallery</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Link</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Quote</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Audio</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Video</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="side_elements_dropdown">
+                    <span class="underline"><span class="side_elements_dropbtn">ELEMENTS</span></span><span class="side_arrow"><i class="fa-solid fa-caret-right"></i></span>
+                    <div class="side_elements_content">
+                        <ul>
+                            <li class="classic_dropdown">
+                                <a href=""><span class="left_arrow">
+                                    < </span><span class="underline"><span
+                                                class="classic_dropbtn">Classic</span></span></a>
+                                <div class="classic_content">
+                                    <ul>
+                                        <li>
+                                            <a href=""><span class="underline">Accordions</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline"></span>Tabs</a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline"></span>Buttons</a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline"></span>Video Button</a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline"></span>Contact Form</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="infographic_dropdown">
+                                <a href=""><span class="left_arrow">
+                                    < </span><span class="underline"><span
+                                                class="infographic_dropbtn">Infographic</span></span></a>
+                                <div class="infographic_content">
+                                    <ul>
+                                        <li>
+                                            <a href=""><span class="underline">Blog List</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Counters</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Countdown</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Google Maps</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Progress Bar</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Pie Charts</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="interactive_dropdown">
+                                <a href=""><span class="left_arrow">
+                                    < </span><span class="underline"><span
+                                                class="interactive_dropbtn">Interactive</span></span></a>
+                                <div class="interactive_content">
+                                    <ul>
+                                        <li>
+                                            <a href=""><span class="underline">Image Gallery</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Testimonials</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Team</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Banner</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Shop List</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Portfolio List</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="typography_dropdown">
+                                <a href=""><span class="left_arrow">
+                                    < </span><span class="underline"><span
+                                                class="typography_dropbtn">Typography</span></span></a>
+                                <div class="typography_content">
+                                    <ul>
+                                        <li>
+                                            <a href=""><span class="underline">Headings</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Columns</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Section Title</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Blockquote</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Dropcaps</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Highlights</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Separators</span></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><span class="underline">Custom Font</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+        </nav>
+        <div class="slider">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg" alt="slider_image"></div>
+                    <div class="swiper-slide"><img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg" alt="slider_image"></div>
+                    <div class="swiper-slide"><img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg" alt="slider_image"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="slider_text">
+                <h2>Send <span>flowers</span> like you mean it.</h2>
+                <p>Where flowers are our inspiration to create lasting memories. Whatever the occasion, our flowers will make it special cursus a sit amet mauris.</p>
+                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h2-sign-img.png" alt="Sara">
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section id="flower_filter">
+            <div class="container">
+                <div class="filter_list">
+                    <ul class="filter_list_ul">
+                        <li class="active" data-filter=".flower-item">ALL</li>
+                        <li data-filter=".cactuses">CACTUSES</li>
+                        <li data-filter=".exotic">EXOTIC</li>
+                        <li data-filter=".greens">GREENS</li>
+                        <li data-filter=".popular">POPULAR</li>
+                        <li data-filter=".various">VARIOUS</li>
+                        <li data-filter=".winter">WINTER</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-3 flower">
+                        <div class="card popular winter flower-item">
+                            <div class="image"> <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg" alt="flower "></div>
+                            <div class="image_title">
+                                <h5>MAJESTY PALM </h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card popular winter flower-item">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>FOXGLOVE FLOWER</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card popular winter flower-item">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>SWEET ALYSSUM</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card popular flower-item">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-11-img.jpg " alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>SPRING SNOWFLAKE</h5>
+                                <p>170 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card popular flower-item">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-12-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>SCARLET SAGE</h5>
+                                <p><span>259$</span> 159 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card cactuses various flower-item">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-9-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>ROCK SOAPWORT</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card greens various flower-item">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-8-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>SUMMER SAVORY</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card exotic various flower-item">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-7-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>WILD ROSES</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card cactuses various">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-5-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>WILD CACTUS</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card cactuses various">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-3-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>CACTUS IN ORANGE</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card exotic various">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-6-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>COLORFUL TULIPS</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card exotic various">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-2-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>ORANGE AMARYLLIS</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card greens various">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-4-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>PINK FLOWER TREE</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 flower">
+                        <div class="card greens">
+                            <div class="image">
+                                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img.jpg" alt="flower ">
+                            </div>
+                            <div class="image_title">
+                                <h5>SCHEFFLERA</h5>
+                                <p>259 $</p>
+                                <button class="addtocart">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js "></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</body>
+
+</html>
